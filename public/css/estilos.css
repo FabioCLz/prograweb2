@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f; /* Fondo azul oscuro */
+    color: white;
+}
+
+.product-page {
+    width: 80%;
+    margin: 120px auto;
+    background-color: #003366; /* Fondo de la página de producto */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-info-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 220px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.details-section {
+    max-width: 70%;
+}
+
+.details-section h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.badges {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.badges li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.badge {
+    background-color: #00509E; /* Color de fondo de las etiquetas */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.extra-images {
+    display: flex;
+    gap: 10px; /* Espacio de 10px entre imágenes */
+    margin-top: 15px;
+    justify-content: space-between; /* Espacio entre las imágenes */
+}
+
+.extra-images img {
+    width: calc(100% / 4 - 10px); /* Divide el ancho disponible entre 4 imágenes y resta el espacio */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+/* Descripción del producto */
+.product-description {
+    background-color: #004080; /* Fondo de la descripción */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pricing-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.best-offer {
+    background-color: #002b5c; /* Fondo de la mejor oferta */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.offer-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.store-logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.trust-rating {
+    font-size: 14px;
+    color: #A0FF00; /* Verde neón */
+    margin-bottom: 15px;
+}
+
+.buy-btn {
+    background-color: #007BFF; /* Azul brillante */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.small-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+/* Otras Ofertas */
+.other-offers {
+    background-color: #004080; /* Fondo de otras ofertas */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.other-offers .offer-btn {
+    background-color: #007BFF; /* Azul brillante */
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 80%; /* Añade un ancho uniforme */
+    text-align: center;
+}
+
+.offer-btn:hover {
+    background-color: #00AFFF; /* Color más brillante al pasar el mouse */
+}
